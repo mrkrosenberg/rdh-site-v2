@@ -10,7 +10,6 @@ import splash from '../../../public/images/splash.svg';
         /> */}
 
 // components
-import navBar from './navBar';
 
 function HeroContainer() {
   return (
