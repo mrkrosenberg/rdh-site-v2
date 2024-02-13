@@ -11,6 +11,7 @@ import splash from '../../../public/images/splash.svg';
 
 // components
 
+
 function HeroContainer() {
   return (
     <div className="h-section w-section bg-black border-2 border-white">
