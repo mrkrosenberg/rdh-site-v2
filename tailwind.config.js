@@ -31,6 +31,9 @@ module.exports = {
     },
     height: {
       'section': '85vh'
+    },
+    width: {
+      'section': '90vw'
     }
   },
   plugins: [],
