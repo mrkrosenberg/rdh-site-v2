@@ -1,15 +1,17 @@
 import Image from "next/image";
 
 // components
-import heroContainer from "./components/heroContainer";
+import HeroContainer from "./components/heroContainer";
+
+// extra 
+ {/* <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+      </div> */}
 
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <heroContainer />
-      </div>
+    <main className="flex min-h-screen flex-col justify-evenly p-6">
+      <HeroContainer />
     </main>
   );
 }
